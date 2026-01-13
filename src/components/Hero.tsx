@@ -34,7 +34,7 @@ export function Hero() {
           className="mb-6"
         >
           <span className="inline-block px-4 py-2 text-xs md:text-sm font-medium tracking-[0.3em] uppercase text-primary border border-primary/30 rounded-full backdrop-blur-sm">
-            9–10 May 2026 • New Delhi
+            9–10 May 2026 • Haldwani, Uttarakhand
           </span>
         </motion.div>
 

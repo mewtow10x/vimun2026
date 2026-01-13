@@ -53,7 +53,7 @@ export function Registration() {
           <div className="glass rounded-xl p-6 text-center">
             <MapPin className="w-8 h-8 text-primary mx-auto mb-4" />
             <h3 className="font-serif font-semibold text-lg mb-2">Location</h3>
-            <p className="text-2xl font-bold text-gradient-gold">New Delhi</p>
+            <p className="text-2xl font-bold text-gradient-gold">Haldwani, Uttarakhand</p>
           </div>
         </motion.div>
 
