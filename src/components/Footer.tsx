@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Mail, Phone, Instagram, MapPin } from 'lucide-react';
+import { Mail, Instagram, MapPin } from 'lucide-react';
 
 export function Footer() {
   const ref = useRef(null);
@@ -52,21 +52,15 @@ export function Footer() {
               <h4 className="font-serif font-semibold text-lg mb-4">Contact Us</h4>
               <ul className="space-y-4">
                 <li>
-                  <a href="mailto:contact@vimun.in" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+                  <a href="mailto:vimun.official.mun@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
                     <Mail className="w-5 h-5" />
-                    contact@vimun.in
+                    vimun.official.mun@gmail.com
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+919876543210" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
-                    <Phone className="w-5 h-5" />
-                    +91 98765 43210
-                  </a>
-                </li>
-                <li>
-                  <a href="https://instagram.com/vimun" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://www.instagram.com/vimun2026?igsh=YW11NzF1NzAwejk=" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
                     <Instagram className="w-5 h-5" />
-                    @vimun
+                    @vimun2026
                   </a>
                 </li>
                 <li className="flex items-start gap-3 text-muted-foreground">

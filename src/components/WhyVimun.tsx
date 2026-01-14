@@ -1,10 +1,10 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Award, Users, Zap, Globe, Sparkles } from 'lucide-react';
+import { Target, Zap, Lightbulb, Globe, Users } from 'lucide-react';
 
 const benefits = [
   {
-    icon: Award,
+    icon: Target,
     title: 'Academic Rigor',
     description: 'Engage with meticulously researched agendas designed by experienced academics and MUN professionals.',
   },
@@ -14,7 +14,7 @@ const benefits = [
     description: 'Navigate real-time crisis scenarios that test your decision-making and adaptability under pressure.',
   },
   {
-    icon: Sparkles,
+    icon: Lightbulb,
     title: 'Skill Transformation',
     description: 'Develop public speaking, negotiation, and critical thinking skills that last a lifetime.',
   },
