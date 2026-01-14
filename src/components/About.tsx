@@ -42,11 +42,12 @@ export function About() {
           >
             <div className="aspect-[4/3] rounded-lg overflow-hidden border-gradient">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent" />
-              <div className="h-full w-full bg-secondary/50 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="text-6xl md:text-8xl font-serif font-bold text-gradient-gold mb-4">VI</div>
-                  <p className="text-muted-foreground text-sm tracking-widest uppercase">Empowering Tomorrow's Leaders</p>
-                </div>
+              <div className="h-full w-full bg-secondary/50 flex items-center justify-center p-8">
+                <img 
+                  src="/chatgpt-logo.png" 
+                  alt="Visionary India Logo" 
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             </div>
             

@@ -176,6 +176,64 @@ export function WhyVimun() {
             </div>
           ))}
         </motion.div>
+
+        {/* Partners Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.7 }}
+          className="mt-20 text-center"
+        >
+          <div className="mb-12">
+            <span className="text-primary text-sm font-medium tracking-[0.2em] uppercase mb-4 block">
+              OUR PARTNERS
+            </span>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
+              Collaborating for <span className="text-gradient-gold">Excellence</span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Proud partnerships that strengthen our mission and amplify our impact.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            {/* Intellectual Partner */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.5, delay: 0.8 }}
+              className="group p-8 rounded-xl border border-border/50 bg-card/50 hover:bg-card hover:border-primary/30 transition-all duration-500"
+            >
+              <h3 className="text-xl font-serif font-semibold mb-4 text-primary">Intellectual Partner</h3>
+              <div className="flex justify-center">
+                <img 
+                  src="/pal-college-logo.jpeg" 
+                  alt="PAL College of Technology and Management" 
+                  className="max-h-24 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                />
+              </div>
+              <p className="text-muted-foreground mt-4 font-medium">PAL College of Technology and Management</p>
+            </motion.div>
+
+            {/* Associated Organization */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.5, delay: 0.9 }}
+              className="group p-8 rounded-xl border border-border/50 bg-card/50 hover:bg-card hover:border-primary/30 transition-all duration-500"
+            >
+              <h3 className="text-xl font-serif font-semibold mb-4 text-primary">Associated With</h3>
+              <div className="flex justify-center">
+                <img 
+                  src="/tiranga-organisation.jpg" 
+                  alt="The Tiranga Organisation" 
+                  className="max-h-24 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                />
+              </div>
+              <p className="text-muted-foreground mt-4 font-medium">The Tiranga Organisation</p>
+            </motion.div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

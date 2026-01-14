@@ -75,6 +75,7 @@ export function Hero() {
           <Button 
             size="lg" 
             className="min-w-[200px] text-base font-semibold bg-primary text-primary-foreground hover:bg-primary/90 glow-gold"
+            onClick={() => window.open('https://forms.gle/128qaNggF11LwTxo7', '_blank')}
           >
             Register Now
           </Button>

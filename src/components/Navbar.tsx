@@ -53,6 +53,7 @@ export function Navbar() {
             <Button 
               size="sm" 
               className="bg-primary text-primary-foreground hover:bg-primary/90"
+              onClick={() => window.open('https://forms.gle/128qaNggF11LwTxo7', '_blank')}
             >
               Register
             </Button>
@@ -102,7 +103,10 @@ export function Navbar() {
                 <Button 
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/90 mt-4"
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    window.open('https://forms.gle/128qaNggF11LwTxo7', '_blank');
+                  }}
                 >
                   Register Now
                 </Button>

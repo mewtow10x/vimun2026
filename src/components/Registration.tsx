@@ -67,6 +67,7 @@ export function Registration() {
           <Button 
             size="lg" 
             className="min-w-[250px] h-14 text-lg font-semibold bg-primary text-primary-foreground hover:bg-primary/90 glow-gold animate-pulse-glow"
+            onClick={() => window.open('https://forms.gle/128qaNggF11LwTxo7', '_blank')}
           >
             Register Now
           </Button>
