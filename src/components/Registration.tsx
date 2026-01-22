@@ -11,7 +11,7 @@ export function Registration() {
     <section id="register" className="section-padding relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0" style={{ background: 'var(--gradient-hero)' }} />
-      
+
       <div ref={ref} className="relative z-10 max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -47,7 +47,7 @@ export function Registration() {
             <CreditCard className="w-8 h-8 text-primary mx-auto mb-4" />
             <h3 className="font-serif font-semibold text-lg mb-2">Delegate Fee</h3>
             <p className="text-2xl font-bold text-gradient-gold">₹2,000</p>
-            <p className="text-sm text-muted-foreground mt-1">IPL: ₹7,799/team</p>
+            <p className="text-sm text-muted-foreground mt-1">IPL: 9799/team</p>
           </div>
 
           <div className="glass rounded-xl p-6 text-center">
@@ -64,8 +64,8 @@ export function Registration() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center"
         >
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="min-w-[250px] h-14 text-lg font-semibold bg-primary text-primary-foreground hover:bg-primary/90 glow-gold animate-pulse-glow"
             onClick={() => window.open('https://forms.gle/128qaNggF11LwTxo7', '_blank')}
           >
