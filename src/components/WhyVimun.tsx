@@ -196,7 +196,7 @@ export function WhyVimun() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Intellectual Partner */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -213,6 +213,24 @@ export function WhyVimun() {
                 />
               </div>
               <p className="text-muted-foreground mt-4 font-medium">PAL College of Technology and Management</p>
+            </motion.div>
+
+            {/* Technical Partner */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.5, delay: 0.85 }}
+              className="group p-8 rounded-xl border border-border/50 bg-card/50 hover:bg-card hover:border-primary/30 transition-all duration-500"
+            >
+              <h3 className="text-xl font-serif font-semibold mb-4 text-primary">Technical Partner</h3>
+              <div className="flex justify-center">
+                <img 
+                  src="/devX.jpg" 
+                  alt="DevX" 
+                  className="max-h-24 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                />
+              </div>
+              <p className="text-muted-foreground mt-4 font-medium">DevX</p>
             </motion.div>
 
             {/* Associated Organization */}
